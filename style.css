@@ -3,60 +3,73 @@
     padding: 0px;
     box-sizing: border-box;
 }
-nav {
-    width: 100%;
+.navbar {
     height: 70px;
-    position: fixed;
-    line-height: 75px;
-    padding: 0px 100px;
-    z-index: 1;
-}
-nav .header h1 {
-    float: left;
+    margin-top: 15px;
+    padding-left: 15%;
 }
 .nav-logo {
     width: 268px;
     height: 33px;
 }
+nav {
+    display: flex;
+    justify-content: space-between;
+}
 nav ul {
     float: right;
+    padding-right: 20%;
 }
 nav ul li {
-    display: inline-block;
     list-style: none;
+    display: inline-block;
+    padding-top: 10px;
 }
 nav ul li a {
     text-decoration: none;
     padding: 0px 0.6em;
-    color: #ababab;
 }
-nav .About {
-    color: #00b39b;
+.content {
+    padding: 0px 20px 0px 20px;
+    margin-top: 33px;
+    margin-bottom: 60px;
 }
-nav ul li a:hover {
-    color: #00b39b;
-}
-.dropdown {
-    cursor: pointer;
-    position: relative;
-}
-.main-menu {
-    list-style: none;
-    font-weight: 400;
-    line-height: 2em;
-    padding: 1.32em 0;
-}
-.dropdown-content {
+.logo {
     display: block;
-    padding-top: 10px;
-    position: absolute;
-    min-width: 220px;
-    margin-left: -100px;
-    background-color: #fff;
-    box-shadow: 0 5px 10px 0 #d3cfc9;
-    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40px;
 }
-.dropdown-content a {
-    line-height: 120%;
-    padding: 12px 16px!important;
+h2 {
+    text-align: center;
+    margin: 1em 0;
+    font-size: 2.125rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 20;
+    letter-spacing: -.3px;
+    color: #00b39b;
+}
+.grid {
+    margin: 0 -10px;
+    display: flex;
+}
+.col-1 {
+    width: 50%;
+    padding-left: 15%;
+    padding-top: 25px;
+}
+.content p {
+    margin: 0.8em 0;
+    line-height: 1.75;
+    font-weight: 400;
+}
+.col-2 {
+    width: 50%;
+    padding-right: 15%;
+    padding-top: 25px;
+}
+.services {
+    margin: 3.75rem auto 2.75rem;
+    padding: 0px 20px;
+    position: relative;
 }
